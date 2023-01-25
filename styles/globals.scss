@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-[#101828];
+  }
+}
+
+.underline-hover {
+  @apply underline decoration-4 hover:decoration-transparent hover:transition-all duration-500;
+}
+
+.link-hover {
+  @apply before:transition-colors before:duration-300 before:block before:absolute before:-inset-1 before:-skew-y-1 before:-z-10 hover:before:bg-[#FCF050] relative inline-block;
+}
+
+.nav-hover {
+  @apply hover:text-black hover:uppercase hover:font-semibold relative before:bg-[#FCF050] before:hidden hover:before:inline-block before:absolute before:-inset-3 before:-z-10 hover:rotate-[-6deg] transition-all;
+}
