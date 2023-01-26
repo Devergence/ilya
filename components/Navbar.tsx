@@ -39,7 +39,7 @@ export default function Navbar() {
         >
           <Link href="/" className="font-normal text-2xl nav-hover">Ilya Danilov</Link>
           <motion.div variants={variants2} className="hidden">
-            <Image src='/auth.png' width="160" height="162" alt="author" />
+            <Image src='/auth.webp' width="160" height="162" alt="author" priority/>
           </motion.div>
         </motion.div>) : <Link href="/" className="font-normal text-2xl inline-block mr-auto nav-hover">Ilya Danilov</Link>
       }

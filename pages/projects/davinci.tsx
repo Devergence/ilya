@@ -1,10 +1,10 @@
 import Image from "next/image";
-import image1 from "../../public/davinci1.jpg";
-import image2 from "../../public/davinci2.jpg";
-import image3 from "../../public/davinci3.jpg";
-import image4 from "../../public/davinci4.jpg";
-import image5 from "../../public/davinci5.jpg";
-import image6 from "../../public/davinci6.jpg";
+import image1 from "../../public/davinci1.webp";
+import image2 from "../../public/davinci2.webp";
+import image3 from "../../public/davinci3.webp";
+import image4 from "../../public/davinci4.webp";
+import image5 from "../../public/davinci5.webp";
+import image6 from "../../public/davinci6.webp";
 import Link from "next/link";
 
 const Davinci = () => {

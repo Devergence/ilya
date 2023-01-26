@@ -1,12 +1,12 @@
 import Image from "next/image";
-import image1 from '../../public/abb1.jpg';
-import image2 from '../../public/abb2.jpg';
-import image3 from '../../public/abb3.jpg';
-import image4 from '../../public/abb4.jpg';
-import image5 from '../../public/abb5.jpg';
-import image6 from '../../public/abb6.jpg';
-import image7 from '../../public/abb7.jpg';
-import image8 from '../../public/abb8.jpg';
+import image1 from '../../public/abb1.webp';
+import image2 from '../../public/abb2.webp';
+import image3 from '../../public/abb3.webp';
+import image4 from '../../public/abb4.webp';
+import image5 from '../../public/abb5.webp';
+import image6 from '../../public/abb6.webp';
+import image7 from '../../public/abb7.webp';
+import image8 from '../../public/abb8.webp';
 import Link from "next/link";
 
 const Akbars = () => {
