@@ -30,17 +30,20 @@ export default function Navbar() {
   }
   return (
     <div className="grid grid-cols-main_cols">
-      <motion.div
-        className="inline-block"
-        animate={controls}
-        onMouseEnter={handleMouseEnterControls}
-        onMouseLeave={handleMouseLeaveControls}
-      >
-        <Link href="/" className="font-normal text-2xl nav-hover">Ilya Danilov</Link>
-        <motion.div variants={variants2} className="hidden">
-          <Image src='/auth.png' width="160" height="162" alt="author" />
-        </motion.div>
-      </motion.div>
+      {
+        isMainPage ? (<motion.div
+          className="inline-block"
+          animate={controls}
+          onMouseEnter={handleMouseEnterControls}
+          onMouseLeave={handleMouseLeaveControls}
+        >
+          <Link href="/" className="font-normal text-2xl nav-hover">Ilya Danilov</Link>
+          <motion.div variants={variants2} className="hidden">
+            <Image src='/auth.png' width="160" height="162" alt="author" />
+          </motion.div>
+        </motion.div>) : <Link href="/" className="font-normal text-2xl inline-block mr-auto nav-hover">Ilya Danilov</Link>
+      }
+
       {
         !isMainPage && <Navigation/>
       }

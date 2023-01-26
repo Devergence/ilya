@@ -6,7 +6,7 @@ const Main = () => {
       <h2 className="font-medium text-4xl">Hello</h2>
 
       <p className="max-w-[523px] font-medium text-3xl mt-6">
-        I am a product designer<br/> <Link className="underline" href="https://www.youtube.com/watch?v=uLwUL4RywR8" target="_blank"><span className="underline-hover link-hover">for five years↗</span></Link>. I work with mobile and web services. Based in Bali
+        I am a product designer<br/> <Link className="underline" href="https://www.linkedin.com/in/ildanilovv/" target="_blank"><span className="underline-hover link-hover">for five years↗</span></Link>. I work with mobile and web services. Based in Bali
       </p>
 
       <p className="max-w-[523px] font-medium text-3xl mt-6">
